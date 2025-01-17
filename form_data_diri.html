@@ -1,0 +1,129 @@
+<!-- by Ahmad Fadhil Rizqi -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Data Diri</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        background-color: rgb(90, 92, 94);
+      }
+
+      .title {
+        text-align: center;
+        background-color: rgb(62, 60, 60);
+        color: rgb(187, 197, 0);
+        font-size: 20px;
+        padding: 9px;
+      }
+
+      .Datadiri {
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #000000;
+        border-radius: 8px;
+        background-color: #ffffff;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border: 1px solid #6e6e6e;
+        padding: 10px;
+        text-align: left;
+      }
+      th {
+        background-color: #ffffff;
+        text-align: center;
+      }
+      input,
+      textarea,
+      select,
+      button {
+        width: 100%;
+        padding: 8px;
+        margin: 5px 0;
+        box-sizing: border-box;
+      }
+      button {
+        background-color: #008a05;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 3px;
+      }
+      button:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Datadiri">
+      <table>
+        <tr>
+          <th colspan="2" class="title">Form Data Diri Mahasiswa</th>
+        </tr>
+          <th><label for="nama">Nama</label></th>
+          <td><input type="text" id="nama" name="nama" placeholder="Masukkan Nama" /></td>
+        </tr>
+        <tr>
+          <th><label for="nim">NIM</label></th>
+          <td><input type="text" id="nim" name="nim" placeholder="Masukkan NIM" /></td>
+        </tr>
+        <tr>
+        <tr>
+          <th><label for="alamat">Alamat</label></th>
+          <td><textarea id="alamat" name="alamat" rows="3" placeholder="Masukkan Alamat"></textarea></td>
+        </tr>
+        <tr>
+          <th><label for="kelas">Kelas</label></th>
+          <td>
+            <select id="kelas" name="kelas">
+              <option selected>Pilih Kelas</option>
+              <option value="RA">Reguler A</option>
+              <option value="RB">Reguler B</option>
+              <option value="RC">Reguler C</option>
+              <option value="SA">Bilingual A</option>
+              <option value="SB">Bilingual B</option>
+              <option value="SC">Bilingual C</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th><label for="prodi">Program Studi</label></th>
+          <td>
+            <select id="prodi" name="prodi">
+              <option selected>Pilih Program Studi</option>
+              <option value="Teknik Informatika">Teknik Informatika</option>
+              <option value="Sistem Informasi">Sistem Informasi</option>
+              <option value="Sistem Komputer">Sistem Komputer</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th><label for="email">Email</label></th>
+          <td><input type="email" id="email" name="email" placeholder="Masukkan Email" /></td>
+        </tr>
+        <tr>
+          <th><label for="telepon">Nomor Telepon</label></th>
+          <td><input type="tel" id="telepon" name="telepon" placeholder="Masukkan Nomor Telepon" /></td>
+        </tr>
+        <tr>
+          <th><label for="tanggal_lahir">Tanggal Lahir</label></th>
+          <td><input type="date" id="tanggal_lahir" name="tanggal_lahir" /></td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <button type="submit">Submit</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
