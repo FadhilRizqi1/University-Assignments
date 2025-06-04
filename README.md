@@ -67,7 +67,7 @@ To run the web-based projects locally, you will generally need a web server envi
 
 1.  **Clone the repository:**
     ```bash
-    git clone <repository_url> # Ganti dengan URL repositori Anda
-    cd <nama_folder_repositori_anda>
+    git clone https://github.com/FadhilRizqi1/Lecture-Assignments.git
+    cd <your repository name>
     ```
 2.  **Navigate to the specific project folder** and follow its `README.md` for detailed setup instructions.
