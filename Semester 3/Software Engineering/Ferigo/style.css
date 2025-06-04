@@ -1,0 +1,1073 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM sans", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  padding-left: 5px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #f4f4f4;
+  position: fixed;
+  width: 100%;
+  background-color: #f4f4f4;
+}
+
+nav ul {
+  font-weight: bold;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px 1px;
+}
+
+nav ul li {
+  padding: 0px 0px;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+nav ul li a.brand {
+  img {
+    width: 150px;
+  }
+}
+
+.gap {
+  width: 320px;
+}
+
+.gap2 {
+  width: 100px;
+}
+
+.gap3 {
+  margin-bottom: 60px;
+}
+
+.login-btn {
+  transition: background-color 0.3s ease;
+  font-weight: 700;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #f4f4f4;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: #369f9f;
+  color: #f4f4f4;
+  border: #000;
+}
+
+.home {
+  background: url("img/Homepage.png") no-repeat center center/cover;
+  background-size: cover;
+  height: 750px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: #f4f4f4;
+  padding: 40px;
+  border: 0px solid black;
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.home-content {
+  max-width: 800px;
+}
+
+.home h1 {
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+
+.home p {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  font-weight: 700;
+  background-color: #369f9f;
+  color: #f4f4f4;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.why-ferigo {
+  font-weight: 700;
+  text-align: center;
+  padding: 50px;
+}
+
+.why-ferigo h2 {
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.why-ferigo h3 {
+  font-weight: 1000;
+}
+
+.why-ferigo p {
+  font-weight: 700;
+  color: #8f8f8f;
+  font-size: 18px;
+  margin-bottom: 80px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.feature {
+  max-width: 200px;
+  text-align: center;
+}
+
+.feature img {
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+.booking {
+  background: url("img/booking.png") no-repeat center center/cover;
+  background-size: cover;
+  padding: 110px;
+  text-align: center;
+}
+
+.booking h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #f4f4f4;
+  margin-bottom: 10px;
+}
+
+.booking p {
+  font-size: 18px;
+  font-weight: 200px;
+  color: #f4f4f4;
+  margin-bottom: 40px;
+}
+
+.booking-form1 {
+  background-color: #f4f4f4;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 720px;
+  margin: 0 auto;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.booking-form {
+  background-color: #f4f4f4;
+  padding: 25px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 720px;
+  margin: 0 auto;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.form-group {
+  font-weight: 700;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.form-group img {
+  width: 40px;
+  padding-top: 23px;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+  width: 300px;
+  padding: 10px;
+  border-radius: 30px;
+  border: 1px solid #8d8d8d;
+}
+
+.form-submit {
+  grid-column: span;
+  text-align: right;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin-top: 15px;
+  background: #f4f4f4;
+  color: #369f9f;
+  border-radius: 40px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.4s ease;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn:hover {
+  background-color: #369f9f;
+  color: #f4f4f4;
+}
+
+.submit {
+  font-weight: 700;
+  padding: 10px 20px;
+  margin-top: 28px;
+  background: #000000;
+  color: #f4f4f4;
+  border-radius: 40px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+  font-family: "Poppins", sans-serif;
+}
+
+.submit:hover {
+  background-color: #369f9f;
+  color: #000000;
+  border: #000000 solid 2px;
+}
+
+.submit2 {
+  font-weight: 700;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background: #000000;
+  color: #f4f4f4;
+  border-radius: 40px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+  font-family: "Poppins", sans-serif;
+}
+
+.submit2:hover {
+  background-color: #369f9f;
+  color: #000000;
+  border: #000000 solid 2px;
+}
+
+.why-ferigo {
+  text-align: center;
+  padding: 50px;
+  img {
+    width: 80px;
+    height: 80px;
+  }
+
+  p {
+    margin-top: 10px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ticket-header {
+  width: 50%;
+}
+
+.ticket-header h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.ticket-header p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.ticket-header .btn {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.ticket-image {
+  width: 100%;
+}
+
+.ticket-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.ticket-order {
+  font-weight: 600;
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 65px;
+  background-color: #f4f4f4;
+}
+
+.ticket-info {
+  width: 50%;
+}
+
+.ticket-info h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.ticket-info p {
+  font-size: 18px;
+  margin-bottom: 190px;
+}
+
+.ticket-info .btn {
+  padding: 10px 20px;
+  background-color: black;
+  color: #f4f4f4;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.ticket-img img {
+  width: 350px;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.testimonial-section {
+  background: url("img/ulasan.png") no-repeat center center/cover;
+  text-align: center;
+  padding: 116px;
+}
+
+.testimonial-section h2 {
+  color: #f4f4f4;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.testi-text {
+  color: #f4f4f4;
+  margin-bottom: 60px;
+}
+
+.testi-text p {
+  margin-bottom: 200px;
+}
+
+.testimonial-section p strong {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.testimonial-section p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.testimonial {
+  background-color: #f4f4f4;
+  padding: 20px;
+  width: 25%;
+  border-radius: 40px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #369f9f;
+  color: #f4f4f4;
+  padding: 50px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+.footer-left {
+  display: flex;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.social-media p {
+  margin-right: 10px;
+}
+
+.social-media a img {
+  width: 25px;
+  height: 25px;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-policy {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-policy a {
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: block;
+    padding: 20px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .gap {
+    display: none;
+  }
+
+  .gap2 {
+    display: none;
+  }
+
+  .gap3 {
+    display: none;
+  }
+
+  .home {
+    background: url("img/Homepage.png") no-repeat center center/cover;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    padding: 20px;
+    border: 0px solid black;
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .home-content {
+    max-width: 100%;
+  }
+
+  .home h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .home p {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .btn {
+    font-weight: 700;
+    background-color: #369f9f;
+    color: #f4f4f4;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .why-ferigo {
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .why-ferigo h2 {
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+
+  .why-ferigo h3 {
+    font-weight: 1000;
+  }
+
+  .why-ferigo p {
+    font-weight: 700;
+    color: #8f8f8f;
+    font-size: 18px;
+    margin-bottom: 80px;
+  }
+
+  .features {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .feature {
+    max-width: 300px;
+    text-align: center;
+  }
+
+  .feature img {
+    width: 50px;
+    margin-bottom: 20px;
+  }
+
+  .booking {
+    background: url("img/booking.png") no-repeat center center/cover;
+    background-size: cover;
+    padding: 110px;
+    text-align: center;
+  }
+
+  .booking h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #f4f4f4;
+    margin-bottom: 10px;
+  }
+
+  .booking p {
+    font-size: 18px;
+    font-weight: 200px;
+    color: #f4f4f4;
+    margin-bottom: 40px;
+  }
+
+  .booking-form1 {
+    background-color: #f4f4f4;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+
+  .booking-form {
+    background-color: #f4f4f4;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+
+  .form-group {
+    font-weight: 700;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-group img {
+    width: 40px;
+    padding-top: 23px;
+  }
+
+  .form-group label {
+    margin-bottom: 5px;
+  }
+
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid #8d8d8d;
+  }
+
+  .form-submit {
+    grid-column: span 2;
+    text-align: right;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    margin-top: 15px;
+    background: #f4f4f4;
+    color: #369f9f;
+    border-radius: 40px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.4s ease;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .btn:hover {
+    background-color: #369f9f;
+    color: #f4f4f4;
+  }
+
+  .submit {
+    font-weight: 700;
+    padding: 10px 20px;
+    margin-top: 28px;
+    background: #000000;
+    color: #f4f4f4;
+    border-radius: 40px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .submit:hover {
+    background-color: #369f9f;
+    color: #000000;
+    border: #000000 solid 2px;
+  }
+
+  .submit2 {
+    font-weight: 700;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background: #000000;
+    color: #f4f4f4;
+    border-radius: 40px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .submit2:hover {
+    background-color: #369f9f;
+    color: #000000;
+    border: #000000 solid 2px;
+  }
+
+  .why-ferigo {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .why-ferigo img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+
+  .why-ferigo p {
+    margin-top: 10px;
+  }
+
+  .ticket-header {
+    width: 100%;
+  }
+
+  .ticket-header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .ticket-header p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .ticket-header .btn {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+
+  .ticket-image {
+    width: 100%;
+  }
+
+  .ticket-image img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .ticket-order {
+    font-weight: 600;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 65px;
+    background-color: #f4f4f4;
+  }
+
+  .ticket-info {
+    width: 100%;
+  }
+
+  .ticket-info h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .ticket-info p {
+    font-size: 18px;
+    margin-bottom: 190px;
+  }
+
+  .ticket-info .btn {
+    padding: 10px 20px;
+    background-color: black;
+    color: #f4f4f4;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+
+  .ticket-img img {
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+  }
+
+  .testimonial-section {
+    background: url("img/ulasan.png") no-repeat center center/cover;
+    text-align: center;
+    padding: 116px;
+  }
+
+  .testimonial-section h2 {
+    color: #f4f4f4;
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+
+  .testi-text {
+    color: #f4f4f4;
+    margin-bottom: 60px;
+  }
+
+  .testi-text p {
+    margin-bottom: 200px;
+  }
+
+  .testimonial-section p strong {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+
+  .testimonial-section p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .testimonials {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+  }
+}
+
+@media (max-width: 320px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: 14px;
+  }
+
+  .container {
+    display: block;
+    padding: 20px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  nav ul li {
+    margin: 0 0 20px 0;
+  }
+
+  nav ul li a {
+    font-size: 1.2em;
+  }
+
+  .home {
+    height: auto;
+    padding: 20px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .home-content {
+    max-width: 100%;
+  }
+
+  .home h1 {
+    font-size: 2em;
+  }
+
+  .home p {
+    font-size: 1.2em;
+  }
+
+  .features {
+    display: block;
+  }
+
+  .feature {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .feature img {
+    width: 100%;
+  }
+
+  .booking {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .booking h2 {
+    font-size: 2em;
+  }
+
+  .booking p {
+    font-size: 1.2em;
+  }
+
+  .booking-form {
+    display: block;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .form-group input,
+  .form-group select {
+    width: 100%;
+  }
+
+  .form-submit {
+    text-align: center;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .testimonial-section {
+    background: none;
+    padding: 20px;
+  }
+
+  .testimonial-section h2 {
+    font-size: 2em;
+  }
+
+  .testimonial-section p {
+    font-size: 1.2em;
+  }
+
+  .testimonials {
+    display: block;
+  }
+
+  .testimonial {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  footer {
+    padding: 20px;
+  }
+
+  .footer-content {
+    display: block;
+  }
+
+  .footer-left {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .footer-right {
+    display: block;
+  }
+
+  .footer-logo {
+    font-size: 1.5em;
+  }
+
+  .footer-nav {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .footer-nav a {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .social-media {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .social-media p {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .social-media a img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .footer-bottom {
+    padding: 20px;
+    display: block;
+  }
+
+  .footer-policy {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .footer-policy a {
+    display: block;
+    margin-bottom: 10px;
+  }
+}

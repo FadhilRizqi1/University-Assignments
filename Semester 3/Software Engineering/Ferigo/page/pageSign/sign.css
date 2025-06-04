@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+body {
+  background-image: url("../../img/loginPage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.a-a {
+  color: wheat;
+  text-decoration: none;
+  padding: 5px 15px 5px 15px;
+}
+
+.a-a:hover {
+  border-right: 1px solid;
+  border-left: 1px solid;
+  padding: 5px 14px 5px 14px;
+}
+
+.container {
+  font-family: "DM sans", sans-serif;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 1px;
+  background-color: transparent;
+  /* border-bottom: 1px solid transparent; */
+  position: sticky;
+  width: max-content;
+}
+
+nav ul {
+  font-weight: bold;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px 1px;
+}
+
+nav ul li {
+  padding: 0px 0px;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+nav ul li a.brand {
+  img {
+    width: 150px;
+  }
+}
+
+.gap {
+  width: 370px;
+}
+
+.gap2 {
+  width: 100px;
+}
+
+.content-box {
+  margin: 30px auto 0px;
+  width: 400px;
+  height: 540px;
+  background-color: rgba(255, 255, 255, 0.125);
+  border-radius: 20px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: solid 1px whitesmoke;
+}
+
+.text-title {
+  color: black;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.input-table {
+  margin: 80px auto 0px;
+}
+
+@media only screen and (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  nav ul li {
+    margin: 10px 0;
+  }
+  nav ul li a {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  nav ul li {
+    margin: 5px 0;
+  }
+  nav ul li a {
+    font-size: 14px;
+  }
+}
+
+input[type="text"],
+input[type="password"] {
+  background-color: rgba(255, 255, 255, 0);
+  color: black;
+  border: none;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  outline: none;
+  padding: 10px;
+  width: 250px;
+}
+
+.password-backup {
+  display: block;
+  text-align: end;
+  margin-left: 92px;
+  margin-bottom: 0px;
+  margin-top: 3px;
+  text-decoration: none;
+  color: black;
+  font-size: 0.67em;
+  transition: color 0.2s ease;
+}
+
+.password-backup:hover {
+  color: white;
+}
+
+.grid-button {
+  display: grid;
+  place-items: center;
+}
+
+.button {
+  position: relative;
+  margin: 30px auto 0px;
+  border-radius: 10px;
+  font-size: 16px;
+  border: 1px solid transparent;
+  width: 296px;
+  background-color: #000000;
+  padding: 5px;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  font-family: "Poppins", sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+.button:hover {
+  background-color: transparent;
+  border: 1px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+}
+
+.button-google img {
+  height: 20px;
+  position: absolute;
+  left: 10px;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.signup {
+  text-align: center;
+  margin: 5px auto;
+  text-decoration: none;
+  color: #ff0000;
+  font-size: small;
+  white-space: nowrap;
+  transition: color 0.2s ease;
+}
+
+.login {
+  text-align: center;
+  margin: 5px auto;
+  text-decoration: none;
+  color: #000000;
+  font-size: small;
+  white-space: nowrap;
+  transition: color 0.2s ease;
+}
+
+.link-create:hover {
+  color: white;
+}
+
+input::placeholder {
+  color: black;
+  opacity: 0.5;
+}
+
+.checkbox-r {
+  display: block;
+  margin-left: 64px;
+  margin-bottom: 0px;
+}
+
+.label-checkbox {
+  text-align: start;
+  margin-left: 0px;
+  color: black;
+  margin-top: 3px;
+  font-size: 0.67em;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.label-checkbox:hover {
+  color: white;
+}
+
+.grid-feature {
+  margin-top: 4px;
+  display: flex;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(0, 0, 0);
+  border: none;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  outline: none;
+  padding: 10px;
+  width: 250px;
+}
+
+.sucsses {
+  text-align: center;
+  margin: 5px auto;
+  text-decoration: none;
+  color: greenyellow;
+  font-size: small;
+  white-space: nowrap;
+  transition: color 0.2s ease;
+}
+
+input::placeholder {
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+}
