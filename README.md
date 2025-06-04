@@ -27,14 +27,14 @@ This section provides a brief overview of the projects and assignments completed
 This folder contains practical implementations of fundamental Artificial Intelligence algorithms, including K-Means Clustering and Naive Bayes Classification, developed using Python within Jupyter Notebooks.
 
 * **Path:** `Semester 3/Artificial Intelligence/`
-* **Detailed README:** `Semester 3/Artificial Intelligence/README.md` (You will create this file inside that folder)
+* **Detailed README:** `Semester 3/Artificial Intelligence/README.md`
 
 ### Software Engineering
 
 This folder contains the "Ferigo" project, a web-based travel ticket booking system developed as a project for the Software Engineering course.
 
 * **Path:** `Semester 3/Software Engineering/`
-* **Detailed README:** `Semester 3/Software Engineering/README.md` (You will create this file inside that folder)
+* **Detailed README:** `Semester 3/Software Engineering/README.md`
 
 ## Semester 4 Overview
 
@@ -45,21 +45,21 @@ This section provides a brief overview of the projects and assignments completed
 This folder contains the "JUBEKA" project, a web-based platform for buying and selling used goods, developed as the final project for the Web Programming 2 course.
 
 * **Path:** `Semester 4/Project Akhir Praktikum Pemrogaman Web 2/JUBEKA/`
-* **Detailed README:** `Semester 4/Project Akhir Praktikum Pemrogaman Web 2/JUBEKA/README.md` (You will create this file inside that folder)
+* **Detailed README:** `Semester 4/Project Akhir Praktikum Pemrogaman Web 2/JUBEKA/README.md` 
 
 ### Web Programming Midterm Project (UTS PEMWEB2)
 
 This folder contains the "Online Course Management System" project, developed for the Midterm Exam (UTS) of the Web Programming 2 course, including different design versions.
 
 * **Path:** `Semester 4/Project Tengah Semester Pemrograman Web 2/`
-* **Detailed README:** `Semester 4/Project Tengah Semester Pemrograman Web 2/README.md` (You will create this file inside that folder)
+* **Detailed README:** `Semester 4/Project Tengah Semester Pemrograman Web 2/README.md` 
 
 ### Weekly Web Programming Assignments
 
 This folder contains various smaller assignments and practical exercises from the Web Programming 2 course, covering fundamental PHP and HTML concepts.
 
 * **Path:** `Semester 4/Tugas Mingguan Praktikum Pemrograman Web 2/`
-* **Detailed README:** `Semester 4/Tugas Mingguan Praktikum Pemrograman Web 2/README.md` (You will create this file inside that folder)
+* **Detailed README:** `Semester 4/Tugas Mingguan Praktikum Pemrograman Web 2/README.md`
 
 ## General Setup Instructions
 
