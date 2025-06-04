@@ -57,8 +57,8 @@ To run these weekly assignments locally, you will need a basic web server enviro
 
 1.  **Clone the repository:**
     ```bash
-    git clone <repository_url> # Ganti dengan URL repositori Anda
-    cd <nama_folder_repositori_anda>/Lecture-Assignments/Semester\ 4/Tugas\ Mingguan\ Praktikum\ Pemrograman\ Web\ 2/
+    git clone https://github.com/FadhilRizqi1/Lecture-Assignments.git
+    cd <your repository folder name>/Lecture-Assignments/Semester\ 4/Tugas\ Mingguan\ Praktikum\ Pemrograman\ Web\ 2/
     ```
 2.  **Place the `Tugas Mingguan Praktikum Pemrograman Web 2` folder** into your web server's document root (e.g., `htdocs` for XAMPP). The full path should look something like `C:/xampp/htdocs/Tugas Mingguan Praktikum Pemrograman Web 2/`.
 3.  **Access the assignments in your browser:**
