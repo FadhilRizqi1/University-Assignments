@@ -53,8 +53,8 @@ To run the Online Course Management System project locally, you will need a web 
 
 1.  **Clone the repository:**
     ```bash
-    git clone <repository_url> # Ganti dengan URL repositori Anda
-    cd <nama_folder_repositori_anda>/Lecture-Assignments/Semester\ 4/Project\ Tengah\ Semester\ Pemrograman\ Web\ 2/
+    git clone https://github.com/FadhilRizqi1/Lecture-Assignments.git
+    cd <your folder repository name>/Lecture-Assignments/Semester\ 4/Project\ Tengah\ Semester\ Pemrograman\ Web\ 2/
     ```
 2.  **Place the desired project folder** (e.g., `UTS PEMWEB2 - KELOMPOK 9 (Final)`) into your web server's document root (e.g., `htdocs` for XAMPP). The full path should look something like `C:/xampp/htdocs/UTS PEMWEB2 - KELOMPOK 9 (Final)/`.
 3.  **Database Setup:**
