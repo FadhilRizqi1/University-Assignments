@@ -55,8 +55,8 @@ To run the JUBEKA project locally, you will need a web server environment with P
 
 1.  **Clone the repository:**
     ```bash
-    git clone <repository_url> # Ganti dengan URL repositori Anda
-    cd <nama_folder_repositori_anda>/Lecture-Assignments/Semester\ 4/Project\ Akhir\ Praktikum\ Pemrogaman\ Web\ 2/
+    git clone https://github.com/FadhilRizqi1/Lecture-Assignments.git
+    cd <your repository folder name>/Lecture-Assignments/Semester\ 4/Project\ Akhir\ Praktikum\ Pemrogaman\ Web\ 2/
     ```
 2.  **Place the `JUBEKA` folder** into your web server's document root (e.g., `htdocs` for XAMPP). The full path should look something like `C:/xampp/htdocs/JUBEKA/`.
 3.  **Database Setup:**
