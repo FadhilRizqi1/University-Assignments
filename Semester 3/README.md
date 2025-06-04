@@ -30,7 +30,7 @@ Here’s an overview of the main projects and assignment categories from this se
 ### 2. Ferigo (Travel Ticket Booking System)
 
 **Type:** Project - Software Engineering
-**Overview:** Ferigo is a web-based travel ticket booking system developed as a significant project for the Software Engineering course. This project provided hands-on experience in designing and building a functional web application from the ground up. It covers essential aspects of software development, including user authentication, managing travel schedules, ticket booking processes, and database integration.
+**Overview:** Ferigo is a web-based travel ticket booking system developed as a significant project for the Software Engineering course. This project provided hands-on experience in designing and building a functional web application from the ground up. It covers essential aspects of software development, including user authentication, managing travel schedules, ticket booking processes, and database integration. **Please note that the available schedules in the database for demonstration purposes are from 28 November - 30 November 2024.**
 
 **Explore Ferigo:** [Go to Software Engineering's README](../Semester%203/Software%20Engineering/README.md)
 
@@ -58,7 +58,7 @@ To set up and run any of the projects from this semester on your local machine, 
 
 1.  **Clone the main repository:**
     ```bash
-    git clone https://github.com/FadhilRizqi1/Lecture-Assignments.git
+    git clone [https://github.com/FadhilRizqi1/Lecture-Assignments.git](https://github.com/FadhilRizqi1/Lecture-Assignments.git)
     cd <your_repository_folder_name>/
     ```
 2.  **Navigate into the specific project's directory** you wish to explore (e.g., `cd Semester\ 3/Artificial\ Intelligence/` or `cd Semester\ 3/Software\ Engineering/`).
