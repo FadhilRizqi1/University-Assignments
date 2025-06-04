@@ -74,7 +74,7 @@ To set up and run any of the web-based projects from this semester on your local
 
 1.  **Clone the main repository:**
     ```bash
-    git clone <repository_url> # Replace with your actual repository URL
+    git clone https://github.com/FadhilRizqi1/Lecture-Assignments.git
     cd <your_repository_folder_name>/
     ```
 2.  **Navigate to the specific project's directory** you wish to explore (e.g., `cd Semester\ 4/Project\ Akhir\ Praktikum\ Pemrogaman\ Web\ 2/JUBEKA/`).
