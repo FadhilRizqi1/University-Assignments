@@ -31,7 +31,7 @@ To run these practical assignments locally, you will need a basic web server env
 
 1.  **Clone the repository:**
     ```bash
-    git clone <repository_url> # Replace with your repository URL
+    git clone https://github.com/FadhilRizqi1/Lecture-Assignments.git
     cd <your_repository_folder_name>/Lecture-Assignments/Semester\ 4/Project\ Tengah\ Semester\ Praktikum\ Pemrograman\ Web\ 2/
     ```
 2.  **Place the contents of this folder** into your web server's document root (e.g., `htdocs` for XAMPP). The full path should look something like `C:/xampp/htdocs/Project Tengah Semester Praktikum Pemrograman Web 2/`.
