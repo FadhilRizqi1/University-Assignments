@@ -1,114 +1,73 @@
-# Lecture Assignments - Web Programming
+# Lecture Assignments - Academic Projects & Assignments
 
-This repository serves as a comprehensive collection of my assignments and projects undertaken during Web Programming courses. It showcases my development in various web technologies, primarily focusing on PHP and foundational web development concepts.
+This repository serves as a comprehensive collection of my assignments, practical exercises, and projects undertaken during various university courses. It showcases my development in diverse technological domains, including Web Programming (primarily PHP), Software Engineering, and Artificial Intelligence.
 
 ## Table of Contents
 
-- [About the Repository](#about-the-repository)
-- [Projects Overview](#projects-overview)
-  - [JUBEKA (Used Goods Buy & Sell Platform)](#jubeka-used-goods-buy--sell-platform)
-  - [Online Course Management System (UTS PEMWEB2)](#online-course-management-system-uts-pemweb2)
-- [Weekly Assignments](#weekly-assignments)
-- [Technologies Used](#technologies-used)
-- [Setup Instructions (for Local Development)](#setup-instructions-for-local-development)
+- [Semester 3 Overview](#semester-3-overview)
+  - [Artificial Intelligence](#artificial-intelligence)
+  - [Software Engineering](#software-engineering)
+- [Semester 4 Overview](#semester-4-overview)
+  - [Web Programming Final Project (JUBEKA)](#web-programming-final-project-jubeka)
+  - [Web Programming Midterm Project (UTS PEMWEB2)](#web-programming-midterm-project-uts-pemweb2)
+  - [Weekly Web Programming Assignments](#weekly-web-programming-assignments)
+- [General Setup Instructions](#general-setup-instructions)
 - [Contact](#contact)
 
 ## About the Repository
 
-This repository is a structured compilation of practical exercises and projects completed as part of my 4th-semester curriculum in Web Programming. It reflects my journey in learning and applying server-side scripting with PHP, database management with MySQL, and front-end development with HTML, CSS, and Bootstrap. The aim is to demonstrate my understanding of core web development principles and problem-solving skills through hands-on implementation.
+This repository is a structured compilation of practical exercises, weekly assignments, and significant projects completed as part of my university curriculum, specifically focusing on the 3rd and 4th semesters. It reflects my journey in learning and applying concepts across different fields such as server-side scripting with PHP, database management with MySQL, front-end development with HTML/CSS/JavaScript, software development methodologies, and machine learning algorithms. The aim is to demonstrate my understanding of core principles and problem-solving skills through hands-on implementation in various academic contexts.
 
-## Projects Overview
+## Semester 3 Overview
 
-### JUBEKA (Used Goods Buy & Sell Platform)
+This section provides a brief overview of the projects and assignments completed during Semester 3. For detailed information, please refer to the specific README files within each sub-directory.
 
-**Description:** JUBEKA (Jual Beli Barang Bekas - Used Goods Buy & Sell) is a web-based platform designed to facilitate the buying and selling of second-hand items, primarily focusing on the Palembang, South Sumatra area. This project includes features for user registration, item posting, item searching, viewing item details, and administrative management.
+### Artificial Intelligence
 
-**Key Features:**
-- User Authentication (Login, Signup, Logout)
-- User Profile Management
-- Item Listing (Posting new items for sale)
-- Item Browse & Searching by keywords and categories
-- Item Details Page
-- User-specific Item Management (View, Edit, Delete own items)
-- Contact Form & Message Management
-- Admin Dashboard for user and item management
-- Database schema (`jubeka_db.sql`)
-- Core functions for database interaction and utility (`functions.php`)
+This folder contains practical implementations of fundamental Artificial Intelligence algorithms, including K-Means Clustering and Naive Bayes Classification, developed using Python within Jupyter Notebooks.
 
-### Online Course Management System (UTS PEMWEB2)
+* **Path:** `Semester 3/Artificial Intelligence/`
+* **Detailed README:** `Semester 3/Artificial Intelligence/README.md` (You will create this file inside that folder)
 
-**Description:** This project focuses on managing users and course registrations for an online learning platform. It includes functionalities for adding new users, registering users for courses, listing available courses, searching for participants in specific courses, and generating a report on the number of registrants per course. The project includes three different design versions (Final, More Design, Simple).
+### Software Engineering
 
-**Key Features:**
-- Database schema (`db_kursus_daring.sql`)
-- User registration form (`form_tambah_user.php`)
-- Course registration form (`form_reg_kursus.php`)
-- List of available courses (`list_kursus.php`)
-- Search functionality for course participants (`cari_peserta.php`)
-- Report on the number of registrants per course (`lap_pendaftar.php`)
-- Shared database connection (`koneksi.php`)
-- Custom CSS styling (`style.css`)
+This folder contains the "Ferigo" project, a web-based travel ticket booking system developed as a project for the Software Engineering course.
 
-## Weekly Assignments
+* **Path:** `Semester 3/Software Engineering/`
+* **Detailed README:** `Semester 3/Software Engineering/README.md` (You will create this file inside that folder)
 
-This section includes various smaller assignments demonstrating fundamental PHP and HTML concepts.
+## Semester 4 Overview
 
-- **PHP Basics (Pertemuan 2):**
-    - `luas_lingkaran.php`: Calculates the area of a circle.
-    - `penggunaan_marquee.php`: Demonstrates the use of the `<marquee>` tag (for educational purposes).
-    - `total_bayar.php`: Calculates the total payment for items.
-    - `volume_kubus.php`: Calculates the volume of a cube.
+This section provides a brief overview of the projects and assignments completed during Semester 4, primarily focusing on Web Programming. For detailed information, please refer to the specific README files within each sub-directory.
 
-- **PHP Functions (Pertemuan 4 & 5):**
-    - `hitungdiskon.php`: A PHP script to calculate discounted prices.
-    - `functions.php` (for login system): Contains core functions related to user login and registration.
-    - `login.php` (login page example): A basic login page demonstrating session and cookie management.
+### Web Programming Final Project (JUBEKA)
 
-- **File & Directory Handling (Tugas PPWEB 2):**
-    - `counter.txt`: A text file used to store a visitor counter.
-    - `data.txt`: A text file containing sample data.
-    - `direktori.php`: Demonstrates creating and removing directories.
-    - `file1.php`: Demonstrates creating a new file.
-    - `file2.php`: Demonstrates writing data to a file.
-    - `file3.php`: Demonstrates reading a specific number of bytes from a file.
-    - `file4.php`: Demonstrates reading a file line by line until the end.
-    - `file5.php`: Implements a simple visitor counter.
-    - `isidirektori.php`: Lists the contents of a directory.
+This folder contains the "JUBEKA" project, a web-based platform for buying and selling used goods, developed as the final project for the Web Programming 2 course.
 
-## Technologies Used
+* **Path:** `Semester 4/Project Akhir Praktikum Pemrogaman Web 2/JUBEKA/`
+* **Detailed README:** `Semester 4/Project Akhir Praktikum Pemrogaman Web 2/JUBEKA/README.md` (You will create this file inside that folder)
 
-* **PHP**
-* **HTML5**
-* **CSS3**
-* **JavaScript**
-* **MySQL** (for database management)
-* **Bootstrap 5** (for responsive design and UI components in JUBEKA)
-* **Bootstrap 4** (for responsive design and UI components in UTS PEMWEB2)
-* **jQuery** (for simplified DOM manipulation and AJAX)
-* **Swiper.js** (for carousels in JUBEKA homepage)
-* **Font Awesome** (for icons)
-* **Select2** (for enhanced select box in UTS PEMWEB2)
+### Web Programming Midterm Project (UTS PEMWEB2)
 
-## Setup Instructions (for Local Development)
+This folder contains the "Online Course Management System" project, developed for the Midterm Exam (UTS) of the Web Programming 2 course, including different design versions.
 
-To run these projects locally, you will need a web server environment with PHP and MySQL support (e.g., XAMPP, WAMP, MAMP).
+* **Path:** `Semester 4/Project Tengah Semester Pemrograman Web 2/`
+* **Detailed README:** `Semester 4/Project Tengah Semester Pemrograman Web 2/README.md` (You will create this file inside that folder)
+
+### Weekly Web Programming Assignments
+
+This folder contains various smaller assignments and practical exercises from the Web Programming 2 course, covering fundamental PHP and HTML concepts.
+
+* **Path:** `Semester 4/Tugas Mingguan Praktikum Pemrograman Web 2/`
+* **Detailed README:** `Semester 4/Tugas Mingguan Praktikum Pemrograman Web 2/README.md` (You will create this file inside that folder)
+
+## General Setup Instructions
+
+To run the web-based projects locally, you will generally need a web server environment with PHP and MySQL support (e.g., XAMPP, WAMP, MAMP). For Artificial Intelligence projects, a Python environment with Jupyter Notebook and relevant libraries is required. Please refer to the specific README files for detailed setup instructions for each project.
 
 1.  **Clone the repository:**
     ```bash
-    git clone <repository_url>
-    cd <repository_name>
+    git clone <repository_url> # Ganti dengan URL repositori Anda
+    cd <nama_folder_repositori_anda>
     ```
-2.  **Set up your web server:**
-    * Place the project folders (e.g., `JUBEKA`, `UTS PEMWEB2 - KELOMPOK 9 (Final)`) into your web server's document root (e.g., `htdocs` for XAMPP).
-3.  **Database Setup:**
-    * **For JUBEKA:**
-        * Create a new MySQL database named `jubeka_db`.
-        * Import the `jubeka_db.sql` file into your newly created database using phpMyAdmin or a similar tool.
-        * Ensure the database connection in `JUBEKA/auth/koneksi.php` is correctly configured with your MySQL credentials (default `root` and empty password for XAMPP).
-    * **For Online Course Management System:**
-        * Create a new MySQL database named `db_kursus_daring`.
-        * Import the `db_kursus_daring.sql` file into your newly created database.
-        * Ensure the database connection in `UTS PEMWEB2 - KELOMPOK 9 (Final)/koneksi.php` is correctly configured.
-4.  **Access the projects in your browser:**
-    * Navigate to `http://localhost/<your_web_root>/JUBEKA/index.php` for the JUBEKA project.
-    * Navigate to `http://localhost/<your_web_root>/UTS%20PEMWEB2%20-%20KELOMPOK%209%20(Final)/form_tambah_user.php` (or other entry points) for the Course Management System.
+2.  **Navigate to the specific project folder** and follow its `README.md` for detailed setup instructions.
