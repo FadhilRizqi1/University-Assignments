@@ -1,6 +1,6 @@
-# Lecture Assignments - Web Programming (Semester 4)
+# Lecture Assignments - Web Programming
 
-This repository serves as a comprehensive collection of my assignments and projects undertaken during the 4th semester of Web Programming courses. It showcases my development in various web technologies, primarily focusing on PHP and foundational web development concepts.
+This repository serves as a comprehensive collection of my assignments and projects undertaken during Web Programming courses. It showcases my development in various web technologies, primarily focusing on PHP and foundational web development concepts.
 
 ## Table of Contents
 
