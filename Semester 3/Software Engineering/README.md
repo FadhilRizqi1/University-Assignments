@@ -96,11 +96,3 @@ Currently, the available schedules for booking are from **November 28, 2024, to 
 5.  **Proceed to Payment**: Select your payment method (currently only Mandiri E-Money is available) and enter your account number. Click "Bayar" (Pay) to complete the booking.
 6.  **View Booking History**: After successful payment, you can view your booking history by navigating to the "Riwayat" (History) page. From there, you can download your e-ticket.
 7.  **Logout**: Click the "Log out" button in the navigation bar to end your session.
-
-## Contributing
-
-Feel free to fork the repository and contribute to the project. Please ensure to follow standard coding practices and include relevant documentation for any new features or bug fixes.
-
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
