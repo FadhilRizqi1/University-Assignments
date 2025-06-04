@@ -58,7 +58,7 @@ To set up and run any of the projects from this semester on your local machine, 
 
 1.  **Clone the main repository:**
     ```bash
-    git clone <repository_url> # Ganti dengan URL repositori Anda
+    git clone https://github.com/FadhilRizqi1/Lecture-Assignments.git
     cd <your_repository_folder_name>/
     ```
 2.  **Navigate into the specific project's directory** you wish to explore (e.g., `cd Semester\ 3/Artificial\ Intelligence/` or `cd Semester\ 3/Software\ Engineering/`).
