@@ -1,4 +1,4 @@
-# Lecture Assignments - Academic Projects & Assignments
+# University Assignments - Academic Projects & Assignments
 
 This repository serves as a comprehensive collection of my assignments, practical exercises, and projects undertaken during various university courses. It showcases my development in diverse technological domains, including Web Programming (primarily PHP), Software Engineering, and Artificial Intelligence.
 
